@@ -1,0 +1,90 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:18:"osCommerce Add-Ons";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2012 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:23:"FedEx - Web Services v9";s:4:"link";s:38:"http://addons.oscommerce.com/info/7977";s:11:"description";s:1567:"Version 9.5.1<br />
+Works on MS 2.2 RC2a and up (utf8 encoding is back, no point in removing it).<br />
+New in this version:<br />
+Works for all vendors, based in or out of the USA (ie. international version).<br />
+Added: Debugging option, configurable via the admin<br />
+Added: Rates currency conversion option.<br />
+Added: Shipping/pickup delay option, as many vendors need several days to process orders<br />
+<br />
+BUG Fixed: When there was only 1 shipping option returned in the response, the shipping rate shown was 0.<br />
+BUG Fixed: Commented out old CRE code, that was messing the Order Editor's totals<br />
+Fixed: RateRequestTypes was hardcoded on &quot;LIST&quot; rates. Now it's using the correct configured option from the admin (LIST or ACCOUNT rates, as you select).<br />
+<br />
+I know that the currency conversion option can be improved, as it needs to be manually modified regularly to match exchange fluctuations, thus if anyone wants to improve this, that would be cool.<br />
+If anyone wants to repackage the files into a full package, with clearer instructions etc., please feel free to do so.<br />
+<br />
+This is NOT a full package. It's just the modified fedexwebservices.php and fedex-common.php5 files.<br />
+Thus, uninstall the module, backup the 2 files you already have from the previous version, which are on your server, then copy these 2 files to their correct directories and reinstall the module from the admin.<br />
+This is required because the new fedexwebservices.php file has new database entries that it needs to insert.";s:7:"pubDate";s:31:"Mon, 14 Apr 2014 12:05:37 +0200";}i:1;a:4:{s:5:"title";s:12:"View Counter";s:4:"link";s:38:"http://addons.oscommerce.com/info/8781";s:11:"description";s:622:"- Added code to prevent duplicate entries in the ignore list.<br />
+- Added a delete button to the block country section to allow deleting blocked entries. <br />
+- Changed database install file so it works with 2.3.3.4.<br />
+- Changed the country blocking module to use curl if fopen won't work on the server.<br />
+- Fixed a problem with the refresh code in 2.3.3.4 shops.<br />
+- Fixed a problem with how the ignore list was created. Some IP's would not return as valid.<br />
+<br />
+This is a full package.<br />
+<br />
+ The support thread is located at:<br />
+ http://forums.oscommerce.com/topic/392949-view-counter/";s:7:"pubDate";s:31:"Sun, 13 Apr 2014 02:58:18 +0200";}i:2;a:4:{s:5:"title";s:41:"jQuery/Ajax Advanced Caching System 2.3.3";s:4:"link";s:38:"http://addons.oscommerce.com/info/9038";s:11:"description";s:1928:"This Add-On will greatly improve page load time for your shop. Instead of reloading the entire page every time the customer clicks on a link, it only requests the essential parts like updating bodyContent, categories and the best sellers boxes.<br />
+<br />
+If you have enabled Cache-Control on your server, then most of the pages will only require 1 request instead of 20-50.<br />
+<br />
+Moreover, the client browser will cache the visited pages with the jQuery .data() method. If a customer press the back/forward button or clicks an already visited link, then the page will load from browser cache and require no requests from the server.<br />
+<br />
+This Add-On will also implement a server side caching system, using either PHP_APC User Caching if available on your server (Recommended) or otherwise fall back to native file caching.<br />
+<br />
+To simplify reading the information stored in the page parse time log (page_parse_time.log), I have included an Admin Widget that uses jQuery flot (http://www.flotcharts.org/), similar to the revenue graph included with osCommerce, to create a line chart with mean value of your server's page load time per hour.<br />
+<br />
+ - Support for and tested on osCommerce 2.3.3.4<br />
+ - Tested successfully on Google Chrome, Firefox and IE9<br />
+ - Compatible with jQuery 2.0.3<br />
+ - Tested successfully with MySQLi<br />
+ - jQuery/Ajax Page Load<br />
+ - jQuery Client Caching<br />
+ - 71 optional CSS 3 Page Transition &amp; Animation Effects<br />
+ - Server Caching<br />
+ - Page Parse Time Admin Widget<br />
+ - PHP_APC Caching Support<br />
+ - Back/Forward Browser Button Support with history.js<br />
+ - SEO friendly - Shop should be unaffected for bots<br />
+<br />
+ - Screenshots included in package<br />
+<br />
+Forum Support Link:<br />
+http://forums.oscommerce.com/topic/394785-jqueryajax-advanced-caching-system-233/<br />
+<br />
+Demo:<br />
+http://jholmster.com";s:7:"pubDate";s:31:"Sat, 12 Apr 2014 10:53:12 +0200";}i:3;a:4:{s:5:"title";s:13:"Zoho LiveDesk";s:4:"link";s:38:"http://addons.oscommerce.com/info/9037";s:11:"description";s:1539:"This module adds the Zoho LiveDesk chat widget to your site.<br />
+<br />
+With Zoho LiveDesk you can instantly connect to your customers and deliver instant support<br />
+<br />
+<br />
+Why LiveDesk?<br />
+<br />
+In LiveDesk, you can customize the chat window color, text, logo, icons, input fields (Name, Email, contact number) and many more.<br />
+<br />
+In the era of real-time communication and instant-everything, customers expect a prompt answer to their questions. With its neat web interface, Zoho LiveDesk allows agents to pick customer chat requests and help them to solve their problems instantly thorugh LiveSupport.<br />
+<br />
+You can easily create, configure and customize your LiveDesk within minutes, Embed the customizable chat widgets into your website and provide a personalized Support experience to your customers.<br />
+<br />
+<br />
+Our Features<br />
+<br />
+Chat Embed Customization<br />
+Support Customers from your Mobile Devices<br />
+Gaze into the future and see what your customers type as they type it and magically make custom solutions appear before they ever hit submit<br />
+Zoho LiveDesk Integration with Zoho CRM and Zoho Support<br />
+Powerful Reporting<br />
+Advanced organizational features, which includes departments.<br />
+Chat transfer and Monitor<br />
+Categorized Canned Messages<br />
+IP Blocking<br />
+Agent roles<br />
+Business hour<br />
+<br />
+Download Zoho LiveDesk plugin now and sign up here for a free account here: https://livedesk.zoho.com/register.sas?source=osCommerce.description";s:7:"pubDate";s:31:"Fri, 11 Apr 2014 16:37:56 +0200";}i:4;a:4:{s:5:"title";s:26:"SEO Header Tags - RELOADED";s:4:"link";s:38:"http://addons.oscommerce.com/info/8864";s:11:"description";s:190:"THIS IS A FULL FILESET, INCLUDING SQL. IGNORE ALL PREVIOUS DOWNLOADS.<br />
+<br />
+2014 04 10<br />
+----------<br />
+- addition of bootstrap enabled files<br />
+- add missing language define";s:7:"pubDate";s:31:"Fri, 11 Apr 2014 16:29:28 +0200";}}s:11:"items_count";i:5;}

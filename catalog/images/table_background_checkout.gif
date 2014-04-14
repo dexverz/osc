@@ -1,0 +1,25 @@
+ong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> reviews)');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> new products)');
+define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> specials)');
+
+define('PREVNEXT_TITLE_FIRST_PAGE', 'First Page');
+define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Previous Page');
+define('PREVNEXT_TITLE_NEXT_PAGE', 'Next Page');
+define('PREVNEXT_TITLE_LAST_PAGE', 'Last Page');
+define('PREVNEXT_TITLE_PAGE_NO', 'Page %d');
+define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Previous Set of %d Pages');
+define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Next Set of %d Pages');
+define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;FIRST');
+define('PREVNEXT_BUTTON_PREV', '[&lt;&lt;&nbsp;Prev]');
+define('PREVNEXT_BUTTON_NEXT', '[Next&nbsp;&gt;&gt;]');
+define('PREVNEXT_BUTTON_LAST', 'LAST&gt;&gt;');
+
+define('IMAGE_BUTTON_ADD_ADDRESS', 'Add Address');
+define('IMAGE_BUTTON_ADDRESS_BOOK', 'Address Book');
+define('IMAGE_BUTTON_BACK', 'Back');
+define('IMAGE_BUTTON_BUY_NOW', 'Buy Now');
+define('IMAGE_BUTTON_CHANGE_ADDRESS', 'Change Address');
+define('IMAGE_BUTTON_CHECKOUT', 'Checkout');
+define('IMAGE_BUTTON_CONFIRM_ORDER', 'Confirm Order');
+define('IMAGE_BUTTON_CONTINUE', 'Continue');
+define('IMAGE_BUTTON_CONTINUE_SHOPPING', 'Continue Shopping
